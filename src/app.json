@@ -1,0 +1,41 @@
+{
+   "pages":[
+      "pages/film/main",
+      "pages/filmDetail/main",
+      "pages/food/main",
+      "pages/foodDetail/main",
+      "pages/list/main",
+      "pages/listDetail/main",
+      "pages/index/main"
+   ],
+   "requiredBackgroundModes": [
+      "audio",
+      "location"
+   ],
+   "window":{
+      "navigationBarBackgroundColor": "#07c160",
+      "navigationBarTextStyle": "white"
+   },
+   "tabBar": {
+      "list": [
+         {
+            "pagePath": "pages/list/main",
+            "text": "文与字",
+            "iconPath":"/static/images/tab/yuedu.png",
+            "selectedIconPath":"/static/images/tab/yuedu_hl.png"
+         },
+         {
+            "pagePath": "pages/film/main",
+            "text": "电影频道",
+            "iconPath": "/static/images/tab/dianying.png",
+            "selectedIconPath": "/static/images/tab/dianying_hl.png"
+         },
+         {
+            "pagePath": "pages/food/main",
+            "text": "美食频道",
+            "iconPath": "/static/images/tab/ciwei.png",
+            "selectedIconPath": "/static/images/tab/ciwei_hl.png"
+         }
+      ]
+   }
+}
